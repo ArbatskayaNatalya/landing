@@ -1,0 +1,46 @@
+body {
+  font-family: Trebuchet MS, sans-serif;
+  color: #63666A;
+  font-size: 16 px;
+}
+
+.title {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.title-medium {
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.second-title {
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.title-small {
+  color: #000000;
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.text-lead {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+.text-medium {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.text-center {
+  text-align: center;
+}
