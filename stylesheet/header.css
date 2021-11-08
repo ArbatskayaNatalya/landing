@@ -39,23 +39,33 @@
   padding: 0 5px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 855px) {
   .header {
     position: inherit;
     width: auto;
     background: #fff;
     top: auto;
     opacity: 1;
+    right: -100%;
   }
-
-  .header-nav,
+    .header-nav,
   .header-logo {
     float: none;
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 520px) {
   .header-nav-item {
+    position: inherit;
     display: block;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 310px) {
+  .header-nav-item {
+    position: inherit;
+    display: block;
+    margin-bottom: 0;
   }
 }

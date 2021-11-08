@@ -61,3 +61,18 @@
   background: #FFCC00;
   border-color: #63666A;
 }
+
+@media (max-width: 960px) {
+  .fare {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .fare {
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

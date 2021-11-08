@@ -10,7 +10,7 @@
 .review-image {
   display: inline-block;
   float: left;
-  width: 150px;
+  width: 180px;
 }
 
 .review-photo {
@@ -43,3 +43,29 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+@media (max-width: 444px) {
+  .review-image {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .review-details {
+    display: inline-block;
+    max-width: 424px;
+    text-align: center;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 879px) {
+  .review-image {
+  }
+  .review-details {
+    max-width: 424px;
+    margin: 10px;
+  }
+}
+

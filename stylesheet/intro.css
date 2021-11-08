@@ -7,7 +7,7 @@
   background-attachment: scroll, fixed;
   background-position: 0 0%, center top;
   color: #000000;
-  padding: 80px;
+  padding: 15% 10%;
   margin-top: 76px;
 }
 
@@ -15,4 +15,10 @@
   color: #000000;
   max-width: 70%;
   margin: 0 15%;
+}
+
+@media (max-width: 855px) {
+  .intro {
+    margin-top: 0px;
+  }
 }
