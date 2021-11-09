@@ -1,7 +1,6 @@
 .intro {
-  background-color: rgb(210, 210, 210);
-  background-image: linear-gradient(rgba(255, 255, 0, 0.1), rgba(210, 210, 210, 0.3) 95%),
-                    url("intro.jpeg");
+  background-color: rgba(210, 210, 210, 0);
+  background-image: linear-gradient(rgba(255, 255, 0, 0.1), rgba(210, 210, 210, 0.3) 95%);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll, fixed;
